@@ -61,7 +61,7 @@
 <body>
    
     <header>
-        <h1>Ryzn</h1>
+        <h1>Mark Ryzen Lactao</h1>
         <p>Web Developer | Graphic Designer | Freelancer</p>
     </header>
 

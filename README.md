@@ -1,1 +1,115 @@
-# html-portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file for styles -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 40px 20px;
+            margin: 20px auto;
+            max-width: 1000px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            text-align: center;
+            color: #333;
+        }
+        .about, .projects, .contact {
+            margin-bottom: 40px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+   
+    <header>
+        <h1>Ryzn</h1>
+        <p>Web Developer | Graphic Designer | Freelancer</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Ryzen, a passionate web developer with a knack for designing clean, user-friendly websites. I have experience working with a variety of technologies including HTML, CSS, JavaScript, and more.</p>
+        <p>I enjoy learning new skills, collaborating on creative projects, and continuously improving my abilities. When I'm not coding, you can find me exploring new design trends or working on personal projects.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title #1</h3>
+            <p></p>
+            <a href="link-to-project.com" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project Title #2</h3>
+            <p></p>
+            <a href="link-to-project.com" target="_blank">View Project</a>
+        </div>
+        <!-- Add more projects here -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>If you’d like to get in touch, feel free to reach out via email or connect with me on social media.</p>
+        <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/yourprofile" target="_blank">GitHub</a></li>
+            <li><a href="mailto:youremail@example.com">Email</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Ryzen. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
